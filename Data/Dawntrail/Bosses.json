@@ -1,0 +1,137 @@
+{
+    "list": [
+        {
+            "Type": 1,
+            "Bosses": [
+                {
+                    "Name": "Valigarmanda",
+                    "Picture": {
+                        "Large": "/Pictures/Valigarmanda.png",
+                        "Small": "/Pictures/Valigarmanda_small.png"
+                    },
+                    "BGM": [
+                        "The Skyruin"
+                    ],
+                    "Patch": "7.0"
+                },
+                {
+                    "Name": "Zoraal Ja",
+                    "Picture": {
+                        "Large": "/Pictures/Zoraal.png",
+                        "Small": "/Pictures/Zoraal_small.png"
+                    },
+                    "BGM": [
+                        "Seeking Purpose"
+                    ],
+                    "Patch": "7.0"
+                },
+                {
+                    "Name": "Queen Eternal",
+                    "Picture": {
+                        "Large": "/Pictures/QueenEternal.png",
+                        "Small": "/Pictures/QueenEternal_small.png"
+                    },
+                    "BGM": [
+                        "Paved in Solitude",
+                        "Paved with Resolve"
+                    ],
+                    "Patch": "7.0"
+                },
+                {
+                    "Name": "Zelenia",
+                    "Picture": {
+                        "Large": "/Pictures/Zelenia.png",
+                        "Small": "/Pictures/Zelenia_small.png"
+                    },
+                    "BGM": [
+                        "Roses of May (Dawntrail)"
+                    ],
+                    "Patch": "7.2"
+                },
+                {
+                    "Name": "Necron",
+                    "Picture": {
+                        "Large": "/Pictures/Necron.png",
+                        "Small": "/Pictures/Necron_small.png"
+                    },
+                    "BGM": [
+                        "Final Fantasy IX: The Final Battle (Dawntrail)"
+                    ],
+                    "Patch": "7.3"
+                },
+                {
+                    "Name": "Arkveld",
+                    "Picture": {
+                        "Large": "/Pictures/Arkveld.png",
+                        "Small": "/Pictures/Arkveld_small.png"
+                    },
+                    "BGM": [
+                        "Radiant Cry of Life"
+                    ],
+                    "Patch": "7.35"
+                },
+                {
+                    "Name": "Doomtrain",
+                    "Picture": {
+                        "Large": "/Pictures/Doomtrain.png",
+                        "Small": "/Pictures/Doomtrain_small.png"
+                    },
+                    "BGM": [
+                        "Final Fantasy IX: Battle 2 (Dawntrail)"
+                    ],
+                    "Patch": "7.4"
+                }
+            ]
+        },
+        {
+            "Type": 2,
+            "Bosses" : [
+                {
+                    "Name": "Black Cat",
+                    "Picture": {
+                        "Large": "/Pictures/Yaana.png",
+                        "Small": "/Pictures/Yaana_Small.png"
+                    },
+                    "BGM": [
+                        "It's Showtime!"
+                    ],
+                    "Patch": "7.01"
+                },
+                {
+                    "Name": "Honey B. Lovely",
+                    "Picture": {
+                        "Large": "/Pictures/Bee.png",
+                        "Small": "/Pictures/Bee_Small.png"
+                    },
+                    "BGM": [
+                        "Bee My Honey"
+                    ],
+                    "Patch": "7.01"
+                },
+                {
+                    "Name": "Brute Bomber",
+                    "Picture": {
+                        "Large": "/Pictures/Brute.png",
+                        "Small": "/Pictures/Brute_Small.png"
+                    },
+                    "BGM": [
+                        "Burning Souls"
+                    ],
+                    "Patch": "7.01"
+                },
+                {
+                    "Name": "Wicked Thunder",
+                    "Picture": {
+                        "Large": "/Pictures/Eutrope.png",
+                        "Small": "/Pictures/Eutrope_Small.png"
+                    },
+                    "BGM": [
+                        "Give it All",
+                        "A Risky Bet"
+                    ],
+                    "Patch": "7.01"
+                }
+            ]
+        }
+    ]
+}
