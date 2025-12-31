@@ -1,7 +1,7 @@
 {
     "list": [
         {
-            "Type": 1,
+            "Type": 2,
             "Bosses": [
                 {
                     "Name": "Valigarmanda",
@@ -84,13 +84,13 @@
             ]
         },
         {
-            "Type": 2,
+            "Type": 4,
             "Bosses" : [
                 {
                     "Name": "Black Cat",
                     "Picture": {
                         "Large": "/Pictures/Yaana.png",
-                        "Small": "/Pictures/Yaana_Small.png"
+                        "Small": "/Pictures/Yaana_small.png"
                     },
                     "BGM": [
                         "It's Showtime!"
@@ -101,7 +101,7 @@
                     "Name": "Honey B. Lovely",
                     "Picture": {
                         "Large": "/Pictures/Bee.png",
-                        "Small": "/Pictures/Bee_Small.png"
+                        "Small": "/Pictures/Bee_small.png"
                     },
                     "BGM": [
                         "Bee My Honey"
@@ -112,7 +112,7 @@
                     "Name": "Brute Bomber",
                     "Picture": {
                         "Large": "/Pictures/Brute.png",
-                        "Small": "/Pictures/Brute_Small.png"
+                        "Small": "/Pictures/Brute_small.png"
                     },
                     "BGM": [
                         "Burning Souls"
@@ -123,13 +123,152 @@
                     "Name": "Wicked Thunder",
                     "Picture": {
                         "Large": "/Pictures/Eutrope.png",
-                        "Small": "/Pictures/Eutrope_Small.png"
+                        "Small": "/Pictures/Eutrope_small.png"
                     },
                     "BGM": [
                         "Give it All",
                         "A Risky Bet"
                     ],
                     "Patch": "7.01"
+                },
+                {
+                    "Name": "Dancing Green",
+                    "Picture": {
+                        "Large": "/Pictures/Frog.png",
+                        "Small": "/Pictures/Frog_small.png"
+                    },
+                    "BGM": [
+                        "Ride the Rhythm"
+                    ],
+                    "Patch": "7.2"
+                },
+                {
+                    "Name": "Sugar Riot",
+                    "Picture": {
+                        "Large": "/Pictures/Sugar Riot.png",
+                        "Small": "/Pictures/Sugar Riot_small.png"
+                    },
+                    "BGM": [
+                        "Back to the Drawing Board"
+                    ],
+                    "Patch": "7.2"
+                },
+                {
+                    "Name": "Brute Abominator",
+                    "Picture": {
+                        "Large": "/Pictures/Brute2.png",
+                        "Small": "/Pictures/Brute2_small.png"
+                    },
+                    "BGM": [
+                        "Not Afraid"
+                    ],
+                    "Patch": "7.2"
+                },
+                {
+                    "Name": "Howling Blade",
+                    "Picture": {
+                        "Large": "/Pictures/Wolf.png",
+                        "Small": "/Pictures/Wolf_small.png"
+                    },
+                    "BGM": [
+                        "Unleashed",
+                        "Peerless"
+                    ],
+                    "Patch": "7.2"
+                },
+                {
+                    "Name": "Vamp Fatale",
+                    "Picture": {
+                        "Large": "/Pictures/Vamp Fatale.png",
+                        "Small": "/Pictures/Vamp Fatale_small.png"
+                    },
+                    "BGM": [
+                        "Sinister"
+                    ],
+                    "Patch": "7.4"
+                },
+                {
+                    "Name": "The Xtremes (Red Hot & Deep Blue)",
+                    "Picture": {
+                        "Large": "/Pictures/BJB.png",
+                        "Small": "/Pictures/BJB_small.png"
+                    },
+                    "BGM": [
+                        "The Mirror"
+                    ],
+                    "Patch": "7.4"
+                },
+                {
+                    "Name": "The Tyrant",
+                    "Picture": {
+                        "Large": "/Pictures/Gilgamesh.png",
+                        "Small": "/Pictures/Gilgamesh_small.png"
+                    },
+                    "BGM": [
+                        "Absolute Tyranny"
+                    ],
+                    "Patch": "7.4"
+                },
+                {
+                    "Name": "Lindwurm",
+                    "Picture": {
+                        "Large": "/Pictures/Lindwurm.png",
+                        "Small": "/Pictures/Lindwurm_small.png"
+                    },
+                    "BGM": [
+                        "Everything Burns",
+                        "The Arcadion"
+                    ],
+                    "Patch": "7.4"
+                }
+            ]
+        },
+        {
+            "Type": 8,
+            "Bosses" : [
+                {
+                    "Name": "Prishe of the Distant Chains",
+                    "Picture": {
+                        "Large": "/Pictures/Prishe.png",
+                        "Small": "/Pictures/Prishe_small.png"
+                    },
+                    "BGM": [
+                        "Depths of the Soul"
+                    ],
+                    "Patch": "7.1"
+                },
+                {
+                    "Name": "Fafnir the Forgotten",
+                    "Picture": {
+                        "Large": "/Pictures/Fafnir.png",
+                        "Small": "/Pictures/Fafnir_small.png"
+                    },
+                    "BGM": [
+                        "Battle in the Dungeon #3 (Fafnir)"
+                    ],
+                    "Patch": "7.1"
+                },
+                {
+                    "Name": "The Ark Angels (MR, EV, HM, GK, TT)",
+                    "Picture": {
+                        "Large": "/Pictures/ArkAngels.png",
+                        "Small": "/Pictures/ArkAngels_small.png"
+                    },
+                    "BGM": [
+                        "Fighters of the Crystal"
+                    ],
+                    "Patch": "7.1"
+                },
+                {
+                    "Name": "Shadow Lord",
+                    "Picture": {
+                        "Large": "/Pictures/Shadow Lord.png",
+                        "Small": "/Pictures/Shadow Lord_small.png"
+                    },
+                    "BGM": [
+                        "Awakening (Shadow Lord)"
+                    ],
+                    "Patch": "7.1"
                 }
             ]
         }

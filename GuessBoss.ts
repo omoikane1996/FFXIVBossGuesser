@@ -2,27 +2,17 @@ import Room from "./Models/Room";
 import { Boss, bossesParseInterface, bossParseInterface, bossPictureParseInterface } from "./Models/Boss";
 import { Difficulty } from "./Models/Difficulty";
 import * as fs from 'fs';
+import Match from "./Models/Match";
 
-let RoomTest: Room = new Room (
-    new Uint8Array([Date.now() % 64]),
-    new Uint8Array([Date.now() % 16]),
-    Difficulty.Normal
-)
 
-let code = RoomTest.getRoomCode()
-
-// console.log(RoomTest);
-// console.log(code, "Length:", code.length);
-// console.log(Room.createRoomFromCode(code))
-// console.log(RoomTest.describeRoom());
-
-parseFromJsonTest();
+matchTest();
 
 function parseFromJsonTest() {
     let expansion = "Dawntrail";
     const filePath: string = "./data/" + expansion + "/Bosses.json";
     let json = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
+    let bossList = new Array<Boss>();
     
     json.list.forEach((List: bossesParseInterface) => {
         let type = Number.parseInt(List.Type);
@@ -39,9 +29,43 @@ function parseFromJsonTest() {
                 bossObject.BGM,
                 bossObject.Patch
             )
-
-            console.log(newBoss);
+            bossList.push(newBoss);
         })
     })
+
+    return bossList;
 }
 
+function roomTest() {
+    let RoomTest: Room = new Room (
+    new Uint8Array([Date.now() % 64]),
+    new Uint8Array([Date.now() % 16]),
+    Difficulty.Normal
+    )
+
+    let code = RoomTest.getRoomCode()
+
+    return RoomTest;
+
+    console.log(RoomTest);
+    console.log(code, "Length:", code.length);
+    console.log(Room.createRoomFromCode(code))
+    console.log(RoomTest.describeRoom());
+}
+
+function matchTest() {
+
+    // We need the room information...
+    let room:Room = roomTest();
+
+    // We need a list of Bosses...
+    let bossList:Boss[] = parseFromJsonTest();
+
+    // We need a match...
+    let matchOne:Match = new Match(room, bossList);
+    let matchTwo:Match = new Match(room, bossList);
+
+    console.log(matchOne, matchTwo);
+    console.log(matchOne == matchTwo);
+
+}
