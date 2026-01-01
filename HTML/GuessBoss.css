@@ -1,0 +1,7 @@
+label::before {
+    background-image: url(../path/to/unchecked.png);
+}
+
+:checked + label::before {
+    background-image: url(../path/to/checked.png);
+}
