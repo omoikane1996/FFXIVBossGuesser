@@ -1,7 +1,7 @@
 import Room from "./Models/Room.js";
 import { Boss } from "./Models/Boss.js";
 import { Difficulty } from "./Models/Difficulty.js";
-import DawntrailData from "./Data/Dawntrail/Bosses.json" assert {type: "json"};
+import DawntrailData from "./Data/Dawntrail/Bosses.json" with { type: "json" };
 import Match from "./Models/Match.js";
 
 matchTest();

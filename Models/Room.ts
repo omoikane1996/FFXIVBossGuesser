@@ -1,4 +1,4 @@
-import { Difficulty, parseDifficulty } from "./Difficulty";
+import { Difficulty, parseDifficulty } from "./Difficulty.js";
 
 export default class Room {
     readonly Expansions: Uint8Array;

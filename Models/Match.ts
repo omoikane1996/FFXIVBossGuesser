@@ -1,5 +1,5 @@
-import { Boss } from "./Boss";
-import Room from "./Room";
+import { Boss } from "./Boss.js";
+import Room from "./Room.js";
 
 // A match is basically a room + Boss Information
 export default class Match {

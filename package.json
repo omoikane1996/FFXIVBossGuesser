@@ -2,7 +2,6 @@
   "name": "ffxiv-boss-guesser",
   "version": "0.0.1",
   "type": "module",
-  "main": "GuessBoss.js",
   "devDependencies": {
     "@types/node": "^25.0.3"
   }
