@@ -1,7 +1,7 @@
 import { Boss } from "./Boss";
 import Room from "./Room";
 
-// A match is basically a room + extra information
+// A match is basically a room + Boss Information
 export default class Match {
     readonly Room: Room;
     readonly BossList: Boss[];
