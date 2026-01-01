@@ -16,19 +16,3 @@ export class Boss {
     }
 }
 
-export interface bossesParseInterface {
-    Type: string;
-    Bosses: Array<object>;
-}
-
-export interface bossParseInterface {
-    Name: string,
-    Picture: object,
-    BGM: Array<string>,
-    Patch: string
-}
-
-export interface bossPictureParseInterface {
-    Large: string,
-    Small: string,
-}

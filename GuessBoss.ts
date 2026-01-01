@@ -1,30 +1,23 @@
 import Room from "./Models/Room";
-import { Boss, bossesParseInterface, bossParseInterface, bossPictureParseInterface } from "./Models/Boss";
+import { Boss } from "./Models/Boss";
 import { Difficulty } from "./Models/Difficulty";
-import * as fs from 'fs';
+import DawntrailData from "./Data/Dawntrail/Bosses.json";
 import Match from "./Models/Match";
-
 
 matchTest();
 
 function parseFromJsonTest() {
-    let expansion = "Dawntrail";
-    const filePath: string = "./data/" + expansion + "/Bosses.json";
-    let json = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-
     let bossList = new Array<Boss>();
     
-    json.list.forEach((List: bossesParseInterface) => {
-        let type = Number.parseInt(List.Type);
+    DawntrailData.list.forEach((List) => {
+        let type = List.Type;
 
-        List.Bosses.forEach((b: object) => {
-            let bossObject = b as bossParseInterface;
-            let pictureObject = bossObject.Picture as bossPictureParseInterface;
+        List.Bosses.forEach((bossObject) => {
 
             let newBoss = new Boss(
                 bossObject.Name,
-                new Array<string>(pictureObject.Large, pictureObject.Small),
-                new Uint8Array([Room.getExpansionFromString(expansion)]),
+                new Array<string>(bossObject.Picture.Large, bossObject.Picture.Small),
+                new Uint8Array([Room.getExpansionFromString("Dawntrail")]),
                 type,
                 bossObject.BGM,
                 bossObject.Patch
