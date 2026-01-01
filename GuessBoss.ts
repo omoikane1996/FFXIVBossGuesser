@@ -1,14 +1,14 @@
-import Room from "./Models/Room";
-import { Boss } from "./Models/Boss";
-import { Difficulty } from "./Models/Difficulty";
-import DawntrailData from "./Data/Dawntrail/Bosses.json";
-import Match from "./Models/Match";
+import Room from "./Models/Room.js";
+import { Boss } from "./Models/Boss.js";
+import { Difficulty } from "./Models/Difficulty.js";
+import DawntrailData from "./Data/Dawntrail/Bosses.json" assert {type: "json"};
+import Match from "./Models/Match.js";
 
 matchTest();
 
 function parseFromJsonTest() {
     let bossList = new Array<Boss>();
-    
+
     DawntrailData.list.forEach((List) => {
         let type = List.Type;
 
