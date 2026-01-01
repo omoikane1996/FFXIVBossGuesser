@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
       - name: 'Build Website'
-        run: tsc && cp index.html ./build/index.html
+        run: tsc && cp index.html ./build/index.html && ls ./build
       - name: 'Upload artifact'
         uses: actions/upload-pages-artifact@v4
         with:
