@@ -117,7 +117,7 @@ export default class Room {
     public static getExpansionFromString(expansion: string): number {
         if ( expansion == "ARR" ) {
             return EXPANSION_ARR;
-        } else if ( expansion == "Heanvensward" ) {
+        } else if ( expansion == "Heavensward" ) {
             return EXPANSION_HW;
         } else if ( expansion == "Stormblood" ) {
             return EXPANSION_STB;
@@ -129,6 +129,20 @@ export default class Room {
             return EXPANSION_DT;
         }
 
+        return -1;
+    }
+
+    public static getTypeFromString(type: string): number {
+        if ( type == "Dungeon" ) {
+            return TYPE_DUNGEON;
+        } else if ( type == "Trials" ) {
+            return TYPE_TRIAL;
+        } else if ( type == "Normal Raids" ) {
+            return TYPE_NORMAL_RAID;
+        } else if ( type == "Alliance Raids" ) {
+            return TYPE_ALLIANCE_RAID;
+        } 
+        
         return -1;
     }
 }

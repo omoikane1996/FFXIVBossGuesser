@@ -5,20 +5,61 @@
     <link rel="stylesheet" href="GuessBoss.css">
 </head>
 <body>
-        <label for="Difficulty">Choose Difficulty:</label>
-        <select name=""Difficulty" id=""Difficulty">
-            <option value=0>Normal</option>
-            <option value=1>Hard</option>
-            <option value=2>Extreme</option>
-            <option value=3>Savage</option>
-            <option value=4>Ultimate</option>
-        </select>
+        <div id="host">
+            <label for="Difficulty">Choose Difficulty:</label>
+            <select name="Difficulty" id="Difficulty">
+                <option value=0 selected>Normal</option>
+                <option value=1 >Hard</option>
+                <option value=2>Extreme</option>
+                <option value=3>Savage</option>
+                <option value=4>Ultimate</option>
+            </select>
 
-        <div>
-            <div>Choose your Expansions:</div>
-            <label for="ARR">A Realm Reborn:</label>
-            <input type="checkbox" id="ARR" value="ARR">
+            <div id="Expansions">
+                <div>Choose your Expansions:</div>
+                <label for="ARR">A Realm Reborn</label>
+                <input type="checkbox" id="ARR" value="ARR" checked>
+                <label for="HW">Heavensward</label>
+                <input type="checkbox" id="HW" value="Heavensward" checked>
+                <label for="StB">Stormblood</label>
+                <input type="checkbox" id="StB" value="Stormblood" checked>
+                <label for="ShB">Shadowbringers</label>
+                <input type="checkbox" id="ShB" value="Shadowbrigners" checked>
+                <label for="EW">Endwalker</label>
+                <input type="checkbox" id="EW" value="Endwalker" checked>
+                <label for="DT">Dawntrail</label>
+                <input type="checkbox" id="Dt" value="Dawntrail" checked>
+            </div>
+
+            <div id="BossTypes">
+                <div>Choose your Boss Types:</div>
+                <!-- <label for="Dungeons">Dungeons</label>
+                <input type="checkbox" id="Dungeons" value="Dungeons" checked> -->
+                <label for="Trials">Trials</label>
+                <input type="checkbox" id="Trials" value="Trials" checked>
+                <label for="NR">Normal Raids</label>
+                <input type="checkbox" id="NR" value="Normal Raids" checked>
+                <label for="AR">Alliance Raids</label>
+                <input type="checkbox" id="AR" value="Alliance Raids" checked>
+            </div>
+
+            <div id="RoomCode">
+                <label for="Code">Room Code:</label>
+                <input type="text" id="Code" value="" readonly>
+            </div>
         </div>
+
+        <div id="join">
+            <div id="JoinRoomCode">
+                <label for="JoinCode">Want to join a room? Drop it here:</label>
+                <input type="text" id="JoinCode" value="">
+                <input type="button" value="Join"/>
+                <div id="joinerror">
+                    <!-- TODO -->
+                </div>
+            </div>
+        </div>
+        
 
     <script type="module" src="GuessBoss.js"></script>
 </body>

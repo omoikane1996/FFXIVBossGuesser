@@ -1,10 +1,60 @@
 import Room from "./Models/Room.js";
 import { Boss } from "./Models/Boss.js";
-import { Difficulty } from "./Models/Difficulty.js";
+import { Difficulty, parseDifficulty } from "./Models/Difficulty.js";
 import DawntrailData from "./Data/Dawntrail/Bosses.json" with { type: "json" };
 import Match from "./Models/Match.js";
 
-matchTest();
+
+let expansionCheckboxes = document.querySelectorAll("#Expansions input[type=checkbox]");
+let expansionSettings: string[] = [];
+
+let bossTypeCheckboxes = document.querySelectorAll("#BossTypes input[type=checkbox]")
+let bossTypeSettings: string[] = [];
+
+expansionCheckboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+        expansionSettings = Array.from(expansionCheckboxes).filter(i => (<HTMLInputElement>i).checked).map(i => (<HTMLInputElement>i).value);
+
+        generateRoomCode();
+    })
+});
+bossTypeCheckboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+        bossTypeSettings = Array.from(bossTypeCheckboxes).filter(i => (<HTMLInputElement>i).checked).map(i => (<HTMLInputElement>i).value);
+
+        generateRoomCode();
+    })
+});
+
+document.querySelector("#JoinCode")?.addEventListener('change', function(e) {
+    let room = Room.createRoomFromCode((<HTMLInputElement>e.currentTarget).value);
+
+    console.log(room);
+});
+
+generateRoomCode();
+
+function generateRoomCode() {
+    let expansion:number = 0;
+    let type:number = 0;
+    let difficulty:string = (document.querySelector("#Difficulty") as HTMLInputElement).value;
+
+    expansionSettings.forEach(function(i) {
+        expansion += Room.getExpansionFromString(i);
+    });
+
+    bossTypeSettings.forEach(function(i) {
+        type += Room.getTypeFromString(i);
+    })
+
+    let room:Room = new Room(
+         new Uint8Array([expansion]),  new Uint8Array([type]), parseDifficulty(difficulty)
+    );
+
+    (document.querySelector("#Code") as HTMLInputElement).value = room.getRoomCode();
+    console.log(room);
+}
+
 
 function parseFromJsonTest() {
     let bossList = new Array<Boss>();
