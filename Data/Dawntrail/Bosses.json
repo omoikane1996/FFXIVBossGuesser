@@ -268,7 +268,52 @@
                     "BGM": [
                         "Awakening (Shadow Lord)"
                     ],
-                    "Patch": "7.1"
+                    "Patch": "7.3"
+                },
+                {
+                    "Name": "Faithbound Kirin",
+                    "Picture": {
+                        "Large": "/Pictures/Faithbound Kirin.png",
+                        "Small": "/Pictures/Faithbound Kirin_small.png"
+                    },
+                    "BGM": [
+                        "Tough Battle"
+                    ],
+                    "Patch": "7.3"
+                },
+                {
+                    "Name": "Ultima, the Feared and Omega, the One",
+                    "Picture": {
+                        "Large": "/Pictures/UltimaOmega.png",
+                        "Small": "/Pictures/UltimaOmega_small.png"
+                    },
+                    "BGM": [
+                        "Turmoil"
+                    ],
+                    "Patch": "7.3"
+                },
+                {
+                    "Name": "Kam'lanaut",
+                    "Picture": {
+                        "Large": "/Pictures/Kam.png",
+                        "Small": "/Pictures/Kam_small.png"
+                    },
+                    "BGM": [
+                        "Tough Battle (2)"
+                    ],
+                    "Patch": "7.3"
+                },
+                {
+                    "Name": "Eald'narche",
+                    "Picture": {
+                        "Large": "/Pictures/Eald.png",
+                        "Small": "/Pictures/Eald_small.png"
+                    },
+                    "BGM": [
+                        "Eald'narche",
+                        "Belief"
+                    ],
+                    "Patch": "7.3"
                 }
             ]
         }

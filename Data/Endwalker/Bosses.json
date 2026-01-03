@@ -1,0 +1,374 @@
+{
+    "list": [
+        {
+            "Type": 2,
+            "Bosses": [
+                {
+                    "Name": "Zodiark",
+                    "Picture": {
+                        "Large": "/Pictures/Zodiark.png",
+                        "Small": "/Pictures/Zodiark_small.png"
+                    },
+                    "BGM": [
+                        "Endcaller"
+                    ],
+                    "Patch": "6.0"
+                },
+                {
+                    "Name": "Hydaelyn",
+                    "Picture": {
+                        "Large": "/Pictures/Hydaelyn.png",
+                        "Small": "/Pictures/Hydaelyn_small.png"
+                    },
+                    "BGM": [
+                        "Your Answer"
+                    ],
+                    "Patch": "6.0"
+                },
+                {
+                    "Name": "The Endsinger",
+                    "Picture": {
+                        "Large": "/Pictures/Endsinger.png",
+                        "Small": "/Pictures/Endsinger_small.png"
+                    },
+                    "BGM": [
+                        "The Final Day",
+                        "With Hearts Aligned"
+                    ],
+                    "Patch": "6.0"
+                },
+                {
+                    "Name": "Barbariccia",
+                    "Picture": {
+                        "Large": "/Pictures/Barbariccia.png",
+                        "Small": "/Pictures/Barbariccia_small.png"
+                    },
+                    "BGM": [
+                        "Battle with the Four Fiends (Buried Memory)"
+                    ],
+                    "Patch": "6.2"
+                },
+                {
+                    "Name": "Rubicante",
+                    "Picture": {
+                        "Large": "/Pictures/Rubicante.png",
+                        "Small": "/Pictures/Rubicante_small.png"
+                    },
+                    "BGM": [
+                        "Forged in Crimson"
+                    ],
+                    "Patch": "6.3"
+                },
+                {
+                    "Name": "Golbez",
+                    "Picture": {
+                        "Large": "/Pictures/Goblez.png",
+                        "Small": "/Pictures/Golbez_small.png"
+                    },
+                    "BGM": [
+                        "Voidcast Savior"
+                    ],
+                    "Patch": "6.4"
+                },
+                {
+                    "Name": "Zeromus",
+                    "Picture": {
+                        "Large": "/Pictures/Zeromus.png",
+                        "Small": "/Pictures/Zeromus_small.png"
+                    },
+                    "BGM": [
+                        "Final Fantasy IV: The Final Battle (Endwalker)"
+                    ],
+                    "Patch": "6.5"
+                },
+                {
+                    "Name": "Asura",
+                    "Picture": {
+                        "Large": "/Pictures/Asura.png",
+                        "Small": "/Pictures/Asura_small.png"
+                    },
+                    "BGM": [
+                        "Final Fantasy IV: Battle 2 (Endwalker)"
+                    ],
+                    "Patch": "6.55"
+                }
+            ]
+        },
+        {
+            "Type": 4,
+            "Bosses" : [
+                {
+                    "Name": "Ericthonios",
+                    "Picture": {
+                        "Large": "/Pictures/Eric.png",
+                        "Small": "/Pictures/Eric_small.png"
+                    },
+                    "BGM": [
+                        "Ancient Shackles"
+                    ],
+                    "Patch": "6.01"
+                },
+                {
+                    "Name": "Hippokampos",
+                    "Picture": {
+                        "Large": "/Pictures/Hippokampos.png",
+                        "Small": "/Pictures/Hippokampos_small.png"
+                    },
+                    "BGM": [
+                       "Ancient Shackles"
+                    ],
+                    "Patch": "6.01"
+                },
+                {
+                    "Name": "Phoinix",
+                    "Picture": {
+                        "Large": "/Pictures/Phoinix.png",
+                        "Small": "/Pictures/Phoinix_small.png"
+                    },
+                    "BGM": [
+                        "Ancient Shackles"
+                    ],
+                    "Patch": "6.01"
+                },
+                {
+                    "Name": "Hesperos",
+                    "Picture": {
+                        "Large": "/Pictures/Hesperos.png",
+                        "Small": "/Pictures/Hesperos_small.png"
+                    },
+                    "BGM": [
+                        "Hic Svent leones"
+                    ],
+                    "Patch": "6.01"
+                },
+                {
+                    "Name": "Proto-Carbuncle",
+                    "Picture": {
+                        "Large": "/Pictures/Carby.png",
+                        "Small": "/Pictures/Carby_small.png"
+                    },
+                    "BGM": [
+                        "Silent Scream"
+                    ],
+                    "Patch": "6.2"
+                },
+                {
+                    "Name": "Hegemone",
+                    "Picture": {
+                        "Large": "/Pictures/Hegemone.png",
+                        "Small": "/Pictures/Hegemone_small.png"
+                    },
+                    "BGM": [
+                        "Scream"
+                    ],
+                    "Patch": "6.2"
+                },
+                {
+                    "Name": "Agdistis",
+                    "Picture": {
+                        "Large": "/Pictures/Agdistis.png",
+                        "Small": "/Pictures/Agdistis_small.png"
+                    },
+                    "BGM": [
+                        "Scream"
+                    ],
+                    "Patch": "6.2"
+                },
+                {
+                    "Name": "Hephaistos",
+                    "Picture": {
+                        "Large": "/Pictures/Hephaistos.png",
+                        "Small": "/Pictures/Hephaistos_small.png"
+                    },
+                    "BGM": [
+                        "Embers",
+                        "White Stone Black"
+                    ],
+                    "Patch": "6.2"
+                },
+                {
+                    "Name": "Kokytos",
+                    "Picture": {
+                        "Large": "/Pictures/Kokytos.png",
+                        "Small": "/Pictures/Kokytos_small.png"
+                    },
+                    "BGM": [
+                        "One Amongst the Weary"
+                    ],
+                    "Patch": "6.4"
+                },
+                {
+                    "Name": "Pandæmonium",
+                    "Picture": {
+                        "Large": "/Pictures/Spider.png",
+                        "Small": "/Pictures/Spider.png"
+                    },
+                    "BGM": [
+                        "One Amongst the Weary"
+                    ],
+                    "Patch": "6.4"
+                },
+                {
+                    "Name": "Themis",
+                    "Picture": {
+                        "Large": "/Pictures/Themis.png",
+                        "Small": "/Pictures/Themis_small.png"
+                    },
+                    "BGM": [
+                        "Fleeting Moment"
+                    ],
+                    "Patch": "6.4"
+                },
+                {
+                    "Name": "Athena",
+                    "Picture": {
+                        "Large": "/Pictures/Athena.png",
+                        "Small": "/Pictures/Athena_small.png"
+                    },
+                    "BGM": [
+                        "Athena, the Tireless One",
+                        "Ultima's Perfection (Endwalker)"
+                    ],
+                    "Patch": "7.4"
+                }
+            ]
+        },
+        {
+            "Type": 8,
+            "Bosses" : [
+                {
+                    "Name": "Byregot",
+                    "Picture": {
+                        "Large": "/Pictures/Byregot.png",
+                        "Small": "/Pictures/Byregot_small.png"
+                    },
+                    "BGM": [
+                        "Radiance"
+                    ],
+                    "Patch": "6.1"
+                },
+                {
+                    "Name": "Rhalgr",
+                    "Picture": {
+                        "Large": "/Pictures/Rhalgr.png",
+                        "Small": "/Pictures/Rhalgr_small.png"
+                    },
+                    "BGM": [
+                        "Radiance"
+                    ],
+                    "Patch": "6.1"
+                },
+                {
+                    "Name": "Azeyma",
+                    "Picture": {
+                        "Large": "/Pictures/Azeyma.png",
+                        "Small": "/Pictures/Azeyma_small.png"
+                    },
+                    "BGM": [
+                        "Radiance"
+                    ],
+                    "Patch": "6.1"
+                },
+                {
+                    "Name": "Nald'thal",
+                    "Picture": {
+                        "Large": "/Pictures/Traders.png",
+                        "Small": "/Pictures/Traders_small.png"
+                    },
+                    "BGM": [
+                        "In the Balance"
+                    ],
+                    "Patch": "6.1"
+                },
+                {
+                    "Name": "Nophicia",
+                    "Picture": {
+                        "Large": "/Pictures/Nophicia.png",
+                        "Small": "/Pictures/Nophicia_small.png"
+                    },
+                    "BGM": [
+                        "Rhythm of the Realm"
+                    ],
+                    "Patch": "6.3"
+                },
+                {
+                    "Name": "Althyk and Nymeia",
+                    "Picture": {
+                        "Large": "/Pictures/Nophicia.png",
+                        "Small": "/Pictures/Nophicia_small.png"
+                    },
+                    "BGM": [
+                        "Rhythm of the Realm"
+                    ],
+                    "Patch": "6.3"
+                },
+                {
+                    "Name": "Halone",
+                    "Picture": {
+                        "Large": "/Pictures/Halone.png",
+                        "Small": "/Pictures/Halone_small.png"
+                    },
+                    "BGM": [
+                        "Rhythm of the Realm"
+                    ],
+                    "Patch": "6.3"
+                },
+                {
+                    "Name": "Menphinia",
+                    "Picture": {
+                        "Large": "/Pictures/Menphinia.png",
+                        "Small": "/Pictures/Menphinia_small.png"
+                    },
+                    "BGM": [
+                        "Dedicated to Moonlight"
+                    ],
+                    "Patch": "6.3"
+                },
+                {
+                    "Name": "Thaliak",
+                    "Picture": {
+                        "Large": "/Pictures/Thaliak.png",
+                        "Small": "/Pictures/Thaliak_small.png"
+                    },
+                    "BGM": [
+                        "Course Uncharted"
+                    ],
+                    "Patch": "6.5"
+                },
+                {
+                    "Name": "Llymlaen",
+                    "Picture": {
+                        "Large": "/Pictures/Llymlaen.png",
+                        "Small": "/Pictures/Llymlaen_small.png"
+                    },
+                    "BGM": [
+                        "Course Uncharted"
+                    ],
+                    "Patch": "6.5"
+                },
+                {
+                    "Name": "Oschon",
+                    "Picture": {
+                        "Large": "/Pictures/Oschon.png",
+                        "Small": "/Pictures/Oschon_small.png"
+                    },
+                    "BGM": [
+                        "Course Uncharted"
+                    ],
+                    "Patch": "6.5"
+                },
+                {
+                    "Name": "Eulogia",
+                    "Picture": {
+                        "Large": "/Pictures/Eulogia.png",
+                        "Small": "/Pictures/Eulogia_small.png"
+                    },
+                    "BGM": [
+                        "Myths of the Realm"
+                    ],
+                    "Patch": "6.5"
+                }
+            ]
+        }
+    ]
+}
