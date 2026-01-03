@@ -1,0 +1,413 @@
+{
+    "list": [
+        {
+            "Type": 2,
+            "Bosses": [
+                {
+                    "Name": "Titania",
+                    "Picture": {
+                        "Large": "/Pictures/Titania.png",
+                        "Small": "/Pictures/Titania.png"
+                    },
+                    "BGM": [
+                        "What Angel Wakes Me"
+                    ],
+                    "Patch": "5.0"
+                },
+                {
+                    "Name": "Innocence",
+                    "Picture": {
+                        "Large": "/Pictures/Innocence.png",
+                        "Small": "/Pictures/Innocence_small.png"
+                    },
+                    "BGM": [
+                        "Insanity"
+                    ],
+                    "Patch": "5.0"
+                },
+                {
+                    "Name": "Hades",
+                    "Picture": {
+                        "Large": "/Pictures/Hades.png",
+                        "Small": "/Pictures/Hades_small.png"
+                    },
+                    "BGM": [
+                        "Shadowbringers",
+                        "Invincible"
+                    ],
+                    "Patch": "5.0"
+                },
+                {
+                    "Name": "Ruby Weapon",
+                    "Picture": {
+                        "Large": "/Pictures/Ruby.png",
+                        "Small": "/Pictures/Ruby_small.png"
+                    },
+                    "BGM": [
+                        "Ultimate (The Primals)",
+                        "Rise of the White Raven (Orchestral Version)"
+                    ],
+                    "Patch": "5.2"
+                },
+                {
+                    "Name": "Varis yae Galvus",
+                    "Picture": {
+                        "Large": "/Pictures/Varis.png",
+                        "Small": "/Pictures/Varis_small.png"
+                    },
+                    "BGM": [
+                        "Insatiable"
+                    ],
+                    "Patch": "5.25"
+                },
+                {
+                    "Name": "Warrior of Light",
+                    "Picture": {
+                        "Large": "/Pictures/Elidibus.png",
+                        "Small": "/Pictures/Elidibus_small.png"
+                    },
+                    "BGM": [
+                        "To the Edge"
+                    ],
+                    "Patch": "5.3"
+                },
+                {
+                    "Name": "Emerald Weapon",
+                    "Picture": {
+                        "Large": "/Pictures/Emerald.png",
+                        "Small": "/Pictures/Emerald_small.png"
+                    },
+                    "BGM": [
+                        "Ultimate (The Primals)",
+                        "The Black Wolf Stalks Again"
+                    ],
+                    "Patch": "5.4"
+                },
+                {
+                    "Name": "Diamond Weapon",
+                    "Picture": {
+                        "Large": "/Pictures/Diamond.png",
+                        "Small": "/Pictures/Diamond_small.png"
+                    },
+                    "BGM": [
+                        "In the Arms of War"
+                    ],
+                    "Patch": "5.5"
+                }
+            ]
+        },
+        {
+            "Type": 4,
+            "Bosses" : [
+                {
+                    "Name": "Eden Prime",
+                    "Picture": {
+                        "Large": "/Pictures/EdenPrime.png",
+                        "Small": "/Pictures/EdenPrime_small.png"
+                    },
+                    "BGM": [
+                        "Force Your Way"
+                    ],
+                    "Patch": "5.01"
+                },
+                {
+                    "Name": "Voidwalker",
+                    "Picture": {
+                        "Large": "/Pictures/Voidwalker.png",
+                        "Small": "/Pictures/Voidwalker_small.png"
+                    },
+                    "BGM": [
+                       "Force Your Way"
+                    ],
+                    "Patch": "5.01"
+                },
+                {
+                    "Name": "Leviathan",
+                    "Picture": {
+                        "Large": "/Pictures/Leviathan.png",
+                        "Small": "/Pictures/Leviathan_small.png"
+                    },
+                    "BGM": [
+                        "Blinding Indigo"
+                    ],
+                    "Patch": "5.01"
+                },
+                {
+                    "Name": "Titan",
+                    "Picture": {
+                        "Large": "/Pictures/Titan.png",
+                        "Small": "/Pictures/Titan_small.png"
+                    },
+                    "BGM": [
+                        "Landslide",
+                        "Under the Weight (From Astral to Umbral)"
+                    ],
+                    "Patch": "5.01"
+                },
+                {
+                    "Name": "Ramuh",
+                    "Picture": {
+                        "Large": "/Pictures/Ramuh.png",
+                        "Small": "/Pictures/Ramuh_small.png"
+                    },
+                    "BGM": [
+                        "Twice Stricken"
+                    ],
+                    "Patch": "5.2"
+                },
+                {
+                    "Name": "Garuda & Ifrit (& Raktapaksa)",
+                    "Picture": {
+                        "Large": "/Pictures/Pasta.png",
+                        "Small": "/Pictures/Pasta_small.png"
+                    },
+                    "BGM": [
+                        "Primal Angel"
+                    ],
+                    "Patch": "5.2"
+                },
+                {
+                    "Name": "The Idol of Darkness",
+                    "Picture": {
+                        "Large": "/Pictures/Birds.png",
+                        "Small": "/Pictures/Birds_small.png"
+                    },
+                    "BGM": [
+                        "Force Your Way"
+                    ],
+                    "Patch": "5.2"
+                },
+                {
+                    "Name": "Shiva",
+                    "Picture": {
+                        "Large": "/Pictures/ShivaEden.png",
+                        "Small": "/Pictures/ShivaEden_small.png"
+                    },
+                    "BGM": [
+                        "Footsteps in the Snow",
+                        "A Sundering of Light",
+                        "Return to Oblivion"
+                    ],
+                    "Patch": "5.2"
+                },
+                {
+                    "Name": "Cloud of Darkness",
+                    "Picture": {
+                        "Large": "/Pictures/CloudOfDarkness.png",
+                        "Small": "/Pictures/CloudOfDarkness_small.png"
+                    },
+                    "BGM": [
+                        "Don't Be Afraid"
+                    ],
+                    "Patch": "5.4"
+                },
+                {
+                    "Name": "Shadowkeeper",
+                    "Picture": {
+                        "Large": "/Pictures/Shadowkeeper.png",
+                        "Small": "/Pictures/Shadowkeeper_small.png"
+                    },
+                    "BGM": [
+                        "Don't Be Afraid"
+                    ],
+                    "Patch": "5.4"
+                },
+                {
+                    "Name": "Fatebreaker",
+                    "Picture": {
+                        "Large": "/Pictures/Fatebreaker.png",
+                        "Small": "/Pictures/Fatebreaker_small.png"
+                    },
+                    "BGM": [
+                        "The Legendary Beast"
+                    ],
+                    "Patch": "5.4"
+                },
+                {
+                    "Name": "Eden's Promise",
+                    "Picture": {
+                        "Large": "/Pictures/GrapeTitties.png",
+                        "Small": "/Pictures/GrapeTitties_small.png"
+                    },
+                    "BGM": [
+                        "Promises to Keep",
+                        "Treasured Memories"
+                    ],
+                    "Patch": "5.4"
+                },
+                {
+                    "Name": "Oracle of Darkness",
+                    "Savage": true,
+                    "Picture": {
+                        "Large": "/Pictures/Gaia.png",
+                        "Small": "/Pictures/Gaia_small.png"
+                    },
+                    "BGM": [
+                        "The Extreme"
+                    ],
+                    "Patch": "5.4"
+                }
+            ]
+        },
+        {
+            "Type": 8,
+            "Bosses" : [
+                {
+                    "Name": "Serial-jointed Command Model",
+                    "Picture": {
+                        "Large": "/Pictures/SJCM.png",
+                        "Small": "/Pictures/SJCM_small.png"
+                    },
+                    "BGM": [
+                        "Song of the Ancients (Atonement)"
+                    ],
+                    "Patch": "5.1"
+                },
+                {
+                    "Name": "Hobbes",
+                    "Picture": {
+                        "Large": "/Pictures/Hobbes.png",
+                        "Small": "/Pictures/Hobbes_small.png"
+                    },
+                    "BGM": [
+                        "Song of the Ancients (Atonement)"
+                    ],
+                    "Patch": "5.1"
+                },
+                {
+                    "Name": "Engels",
+                    "Picture": {
+                        "Large": "/Pictures/Engels.png",
+                        "Small": "/Pictures/Engels_small.png"
+                    },
+                    "BGM": [
+                        "Bipolar Nightmare"
+                    ],
+                    "Patch": "5.1"
+                },
+                {
+                    "Name": "9S-operated Walking Fortress",
+                    "Picture": {
+                        "Large": "/Pictures/9S.png",
+                        "Small": "/Pictures/9s_small.png"
+                    },
+                    "BGM": [
+                        "Weight of the World (Prelude Version)"
+                    ],
+                    "Patch": "5.1"
+                },
+                {
+                    "Name": "813P-operated Aegis Unit",
+                    "Picture": {
+                        "Large": "/Pictures/813P.png",
+                        "Small": "/Pictures/831P_small.png"
+                    },
+                    "BGM": [
+                        "Grandma - Destruction"
+                    ],
+                    "Patch": "5.3"
+                },
+                {
+                    "Name": "724P-operated Superior Flight Unit (A-lpha), 767P-operated Superior Flight Unit (B-eta), 772P-operated Superior Flight Unit (C-hi)",
+                    "Picture": {
+                        "Large": "/Pictures/72672P.png",
+                        "Small": "/Pictures/72672P_small.png"
+                    },
+                    "BGM": [
+                        "Bipolar Nightmare"
+                    ],
+                    "Patch": "5.3"
+                },
+                {
+                    "Name": "950P-operated Heavy Artillery Unit",
+                    "Picture": {
+                        "Large": "/Pictures/950P.png",
+                        "Small": "/Pictures/950P_small.png"
+                    },
+                    "BGM": [
+                        "End of the Unknown"
+                    ],
+                    "Patch": "5.3"
+                },
+                {
+                    "Name": "The Compound",
+                    "Picture": {
+                        "Large": "/Pictures/Compound.png",
+                        "Small": "/Pictures/Compound_small.png"
+                    },
+                    "BGM": [
+                        "Grandma - Destruction"
+                    ],
+                    "Patch": "5.3"
+                },
+                {
+                    "Name": "Compound 2P",
+                    "Picture": {
+                        "Large": "/Pictures/2P.png",
+                        "Small": "/Pictures/2P_small.png"
+                    },
+                    "BGM": [
+                        "Torn from the Heavens The Dark Colossus Destroys All (Medley Version)"
+                    ],
+                    "Patch": "5.3"
+                },
+                {
+                    "Name": "Knave of Hearts",
+                    "Picture": {
+                        "Large": "/Pictures/Knave.png",
+                        "Small": "/Pictures/Knave_small.png"
+                    },
+                    "BGM": [
+                        "Emil (Despair)"
+                    ],
+                    "Patch": "5.5"
+                },
+                {
+                    "Name": "Hansel & Gretel",
+                    "Picture": {
+                        "Large": "/Pictures/HanselAndGretel.png",
+                        "Small": "/Pictures/HanselAndGretel_small.png"
+                    },
+                    "BGM": [
+                        "Song of the Ancients (Atonement)"
+                    ],
+                    "Patch": "5.5"
+                },
+                {
+                    "Name": "Red Girl",
+                    "Picture": {
+                        "Large": "/Pictures/RedGirl.png",
+                        "Small": "/Pictures/RedGirl_small.png"
+                    },
+                    "BGM": [
+                        "The Sound of the End",
+                        "The Sound of the End (8-bit)"
+                    ],
+                    "Patch": "5.5"
+                },
+                {
+                    "Name": "False Idol (Aberration)",
+                    "Picture": {
+                        "Large": "/Pictures/FalseIdol.png",
+                        "Small": "/Pictures/FalseIdol_small.png"
+                    },
+                    "BGM": [
+                        "Possessed by Disease"
+                    ],
+                    "Patch": "6.5"
+                },
+                {
+                    "Name": "Her Inflorescence",
+                    "Picture": {
+                        "Large": "/Pictures/Kaine.png",
+                        "Small": "/Pictures/Kaine_small.png"
+                    },
+                    "BGM": [
+                        "Kainé (Final Fantasy Main Theme Version)"
+                    ],
+                    "Patch": "6.5"
+                }
+            ]
+        }
+    ]
+}

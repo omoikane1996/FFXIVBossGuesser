@@ -142,6 +142,18 @@
                     "Patch": "6.01"
                 },
                 {
+                    "Name": "Hesperos (Savage Phase Two)",
+                    "Savage": true,
+                    "Picture": {
+                        "Large": "/Pictures/HesperosP2.png",
+                        "Small": "/Pictures/HesperosP2_small.png"
+                    },
+                    "BGM": [
+                        "Hic Svent leones"
+                    ],
+                    "Patch": "6.01"
+                },
+                {
                     "Name": "Proto-Carbuncle",
                     "Picture": {
                         "Large": "/Pictures/Carby.png",
@@ -181,7 +193,18 @@
                         "Small": "/Pictures/Hephaistos_small.png"
                     },
                     "BGM": [
-                        "Embers",
+                        "Embers"
+                    ],
+                    "Patch": "6.2"
+                },
+                {
+                    "Name": "Hephaistos (Savage Phase Two)",
+                    "Savage": true,
+                    "Picture": {
+                        "Large": "/Pictures/HephaistosP2.png",
+                        "Small": "/Pictures/HephaistosP2_small.png"
+                    },
+                    "BGM": [
                         "White Stone Black"
                     ],
                     "Patch": "6.2"
@@ -201,7 +224,7 @@
                     "Name": "Pandæmonium",
                     "Picture": {
                         "Large": "/Pictures/Spider.png",
-                        "Small": "/Pictures/Spider.png"
+                        "Small": "/Pictures/Spider_small.png"
                     },
                     "BGM": [
                         "One Amongst the Weary"
@@ -226,7 +249,18 @@
                         "Small": "/Pictures/Athena_small.png"
                     },
                     "BGM": [
-                        "Athena, the Tireless One",
+                        "Athena, the Tireless One"
+                    ],
+                    "Patch": "7.4"
+                },
+                {
+                    "Name": "Pallas Athena",
+                    "Savage": true,
+                    "Picture": {
+                        "Large": "/Pictures/PallasAthena.png",
+                        "Small": "/Pictures/PallasAthena_small.png"
+                    },
+                    "BGM": [
                         "Ultima's Perfection (Endwalker)"
                     ],
                     "Patch": "7.4"
